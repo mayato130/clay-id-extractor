@@ -1,0 +1,19 @@
+{
+  "name": "Clay ID Extractor",
+  "description": "Extract workspace ID and table ID from Clay URLs",
+  "version": "1.2",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "clay-table-extractor.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
+
